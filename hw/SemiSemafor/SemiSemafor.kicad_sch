@@ -358,6 +358,22 @@
           (name "GPIO2/ADC1_CH2" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
+        (pin power_in line (at 0 -41.91 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "50" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -41.91 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "51" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -41.91 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "52" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -41.91 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "53" (effects (font (size 1.27 1.27))))
+        )
         (pin bidirectional line (at 21.59 -19.05 180) (length 2.54)
           (name "GPIO3/ADC1_CH3" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
@@ -1820,6 +1836,10 @@
     (pin "48" (uuid 43d60978-0add-4f98-846a-99f69b8d25f3))
     (pin "49" (uuid 34160ff9-fd55-4a6e-ac26-6b0775baad2d))
     (pin "5" (uuid b99b612b-3e9d-46ed-b622-0f04c52f41f8))
+    (pin "50" (uuid 717a084b-b866-4e12-8646-26494d1950c4))
+    (pin "51" (uuid 722a7d1b-e253-463d-a55d-876294e9c1bd))
+    (pin "52" (uuid 1c7f9420-b196-4504-8c0f-855a0c521883))
+    (pin "53" (uuid 9da3352f-7adc-4926-9a8f-cd17a6ffeed7))
     (pin "6" (uuid db9f3fdd-0154-41ff-88d3-0fa1e41655f7))
     (pin "8" (uuid d5a6e29f-02d8-40b1-a99b-f27336394ac2))
   )
