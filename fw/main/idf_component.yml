@@ -1,0 +1,7 @@
+dependencies:
+  idf:
+    version: ">=5.0.0"
+
+  SmartLeds:
+    git: https://github.com/RoboticsBrno/SmartLeds.git
+

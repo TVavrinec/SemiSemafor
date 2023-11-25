@@ -1,0 +1,16 @@
+dependencies:
+  SmartLeds:
+    component_hash: 423ab43995fc50fe8e3b6fb3b26a5697816a18d44538880081f413459631b33b
+    source:
+      git: https://github.com/RoboticsBrno/SmartLeds.git
+      path: .
+      type: git
+    version: ede05a64142a75e71d7dcd4a321e045ea53e0c5a
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.0
+manifest_hash: 8d99c7ba22bfacf60998e23cb27c6344300219aac63241c31eafe37d0f84fd13
+target: esp32c3
+version: 1.0.0
