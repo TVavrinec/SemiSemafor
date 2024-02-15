@@ -28,3 +28,14 @@ fp-info-cache
 *.xml
 *.csv
 hw/SemiSemafor/#auto_saved_files#
+
+hw/SemiSemafor/~SemiSemafor.kicad_sch.lck
+
+*.lck
+hw/SemiSemafor/jlcdata/gerber
+hw/SemiSemafor/panel.kicad_dru
+hw/SemiSemafor/panel.kicad_prl
+hw/SemiSemafor/SemiSemafor.kicad_prl
+hw/SemiSemafor/panel.kicad_pcb
+hw/SemiSemafor/panel.kicad_pro
+hw/SemiSemafor/jlcdata
