@@ -6421,7 +6421,7 @@
   (gr_text "SW2" (at 153.45 107.05) (layer "F.SilkS") (tstamp 4750e0bd-66d8-423c-a231-13c69ca9c68c)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "SemiSemafor\nv2.0" (at 199.91 90.88) (layer "F.SilkS") (tstamp 4bfeeff8-3407-4df0-93bb-a1b8866cdeb7)
+  (gr_text "Semafor\nv2.0" (at 199.91 90.88) (layer "F.SilkS") (tstamp 4bfeeff8-3407-4df0-93bb-a1b8866cdeb7)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "SW1" (at 193.45 107.05) (layer "F.SilkS") (tstamp a9d62443-7c17-448f-b5b9-5f6313c1fcb7)
