@@ -1955,7 +1955,7 @@
   (symbol (lib_id "Device:C") (at 67.31 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d641e82-eda7-4320-8264-d988e419dea7)
-    (property "Reference" "-C7" (at 71.12 97.7899 0)
+    (property "Reference" "C7" (at 71.12 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 71.12 100.3299 0)
@@ -1975,7 +1975,7 @@
     (instances
       (project "SemiSemafor"
         (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
-          (reference "-C7") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2143,35 +2143,6 @@
       (project "SemiSemafor"
         (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
           (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 203.2 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1dde8550-91b5-4008-bacd-150b45c56a89)
-    (property "Reference" "C8" (at 205.74 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 205.74 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 204.1652 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 203.2 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C1525" (at 203.2 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ccd0963c-1d54-4a80-940a-72645269ac7e))
-    (pin "2" (uuid bcb46279-95ef-43a9-8452-27b828d0a7b3))
-    (instances
-      (project "SemiSemafor"
-        (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
-          (reference "C8") (unit 1)
         )
       )
     )
@@ -2591,6 +2562,35 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 203.2 113.03 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 45c8c08a-d3df-4853-9a5e-73f8830e0090)
+    (property "Reference" "C17" (at 205.74 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 205.74 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 204.1652 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 203.2 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C1525" (at 203.2 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e438ae87-ad2c-4f41-81ad-8803e4f72323))
+    (pin "2" (uuid 780cfbf6-7e92-4d46-82e4-8676ebb5dac4))
+    (instances
+      (project "SemiSemafor"
+        (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
+          (reference "C17") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Robotarna_KiCad_Library:ESP32-C3-MINI-1") (at 156.21 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46d2aa72-58a2-4e2e-bc7b-e7d2af0b368c)
@@ -2717,7 +2717,7 @@
   (symbol (lib_id "Device:C") (at 38.1 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47f85735-9e18-4a7c-bf74-b4fbb3394828)
-    (property "Reference" "-C8" (at 41.91 97.7899 0)
+    (property "Reference" "C8" (at 41.91 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 41.91 100.3299 0)
@@ -2737,7 +2737,7 @@
     (instances
       (project "SemiSemafor"
         (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
-          (reference "-C8") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3197,6 +3197,35 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 215.9 113.03 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 829ddd4a-e04d-44a4-a779-41882a0c1df3)
+    (property "Reference" "C18" (at 218.44 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 218.44 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 216.8652 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 215.9 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C1525" (at 215.9 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 42252c13-fb4f-4d6a-9003-0d53d32944e2))
+    (pin "2" (uuid 0a73fadd-1838-4f66-a342-1580fce629cb))
+    (instances
+      (project "SemiSemafor"
+        (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
+          (reference "C18") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Switch:SW_DIP_x01") (at 77.47 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 831011a0-1204-4504-a619-ea30febf0230)
@@ -3314,35 +3343,6 @@
       (project "SemiSemafor"
         (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
           (reference "D5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 215.9 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 90e765f9-839c-4842-9152-758936aa3ae4)
-    (property "Reference" "C7" (at 218.44 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 218.44 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 216.8652 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 215.9 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C1525" (at 215.9 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c7ef6a57-ff0d-49f3-b38c-6a63b836ada9))
-    (pin "2" (uuid 47419073-2a34-4ece-bade-308fca9059a7))
-    (instances
-      (project "SemiSemafor"
-        (path "/fb82d987-26cf-425e-8e99-22ecb59c8a96"
-          (reference "C7") (unit 1)
         )
       )
     )
@@ -4091,7 +4091,7 @@
   )
 
   (symbol (lib_id "RKL-MEMS:LIS2DH12") (at 254 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid d8643645-fcc6-4ffc-b820-45262f9b42ee)
     (property "Reference" "U3" (at 254.635 100.33 0)
       (effects (font (size 1.27 1.27)))
