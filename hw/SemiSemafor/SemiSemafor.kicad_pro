@@ -452,11 +452,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "SemiSemafor.cad",
       "idf": "",
       "netlist": "./",
-      "specctra_dsn": "",
-      "step": "",
+      "specctra_dsn": "SemiSemafor.dsn",
+      "step": "SemiSemafor.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
