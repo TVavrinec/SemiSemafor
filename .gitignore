@@ -39,3 +39,4 @@ hw/SemiSemafor/SemiSemafor.kicad_prl
 hw/SemiSemafor/panel.kicad_pcb
 hw/SemiSemafor/panel.kicad_pro
 hw/SemiSemafor/jlcdata
+*.step
