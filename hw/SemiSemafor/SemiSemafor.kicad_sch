@@ -2625,7 +2625,7 @@
     (property "LCSC" "C2838502" (at 156.21 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB_CORRECTION" "" (at 156.21 46.99 0)
+    (property "JLCPCB_CORRECTION" "0;0;180" (at 156.21 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ba76a903-e92f-4e65-89c1-cd27e2707b12))
