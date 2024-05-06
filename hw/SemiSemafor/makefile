@@ -1,3 +1,3 @@
-kikit panelize     --layout 'grid; rows: 3; cols: 6; space: 1.0mm'    --tooling '3hole; hoffset: 2.5mm; voffset: 1.5mm; size: 1.5mm'  --tabs 'fixed; width: 3mm; vcount: 1'     --cuts vcuts      --framing 'railstb; width: 3mm; space: 1mm;'     --post 'millradius: 0.5mm' SemiSemafor.kicad_pcb panel.kicad_pcb
+kikit panelize --layout "grid; rows: 2; cols: 5; space: 5mm;" --tabs annotation --source "tolerance: 15mm" --cuts "mousebites; drill: 0.5mm; spacing: 1mm; offset: 0.2mm; prolong: 0.5mm" --framing "railstb; width: 5mm; space: 3mm;" --post "millradius: 1mm" SemiSemafor.kicad_pcb build/panel.kicad_pcb
 
-kikit fab jlcpcb --no-drc --assembly --schematic SemiSemafor.kicad_sch panel.kicad_pcb jlcdata
+kikit fab jlcpcb --assembly --no-drc --schematic SemiSemafor.kicad_sch build/panel.kicad_pcb jlcdata
