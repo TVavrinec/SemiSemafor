@@ -71,7 +71,6 @@ extern "C" void app_main(void)
             for (auto& led : leds)
                 led = Rgb { 0, 0, 10 };
         }
-        leds.show();
 
         // auto [x, y, z] = calcDiff(imu.accel());
         // ESP_LOGI(TAG, "x: %d\ty: %d\tz: %d\t", x, y, z);
@@ -80,6 +79,8 @@ extern "C" void app_main(void)
         // ESP_LOGI(TAG, "Click register: %d", clickRes);
         if (clickRes & (1 << 2)) {
             ESP_LOGI(TAG, "Click detected");
+            for (auto& led : leds)
+                led = Rgb { 10, 10, 10 };
             imu.writeByte(IMU::CLICK_SRC, ~(1 << 7 | 1 << 4));
         }
         // const char header[1] = {0x80};
@@ -87,6 +88,7 @@ extern "C" void app_main(void)
         // write(fileno(stdout), header, 1);
         // write(fileno(stdout), );
 
+        leds.show();
         std::this_thread::sleep_for(10ms);
     }
 }
