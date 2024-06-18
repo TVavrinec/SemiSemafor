@@ -80,8 +80,9 @@ extern "C" void app_main(void)
         if (clickRes & (1 << 2)) {
             ESP_LOGI(TAG, "Click detected");
             for (auto& led : leds)
-                led = Rgb { 10, 10, 10 };
+                led = Rgb { 100, 100, 100 };
             imu.writeByte(IMU::CLICK_SRC, ~(1 << 7 | 1 << 4));
+            std::this_thread::sleep_for(100ms);
         }
         // const char header[1] = {0x80};
         // std::int16_t data[3] = {x,y,z}
